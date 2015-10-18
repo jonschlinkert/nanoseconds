@@ -14,6 +14,12 @@ $ npm i nanoseconds --save
 
 ```js
 var nano = require('nanoseconds');
+nano(process.hrtime());
+```
+
+**Examples**
+
+```js
 nano([0, 999]);
 //=> 999
 
