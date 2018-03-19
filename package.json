@@ -1,7 +1,7 @@
 {
   "name": "nanoseconds",
   "description": "Convert the process.hrtime() array to a single nanoseconds value. This makes it easier to diff times.",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "homepage": "https://github.com/jonschlinkert/nanoseconds",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/nanoseconds",
