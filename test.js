@@ -2,7 +2,7 @@
 
 require('mocha');
 var assert = require('assert');
-var nano = require('.');
+var nano = require('./');
 
 describe('nanoseconds', function() {
   it('should convert to nanoseconds:', function() {
