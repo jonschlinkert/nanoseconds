@@ -2,7 +2,7 @@
 
 require('mocha');
 var assert = require('assert');
-var nano = require('./');
+var nano = require('.');
 
 describe('nanoseconds', function() {
   it('should convert to nanoseconds:', function() {
@@ -12,6 +12,8 @@ describe('nanoseconds', function() {
   });
 
   it('should throw an error:', function() {
-    assert.throws(() => nano(), /expected an array from process\.hrtime()/)
+    assert.throws(function() {
+      nano()
+    }, /expected an array from process\.hrtime\(\)/);
   });
 });
